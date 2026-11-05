@@ -22,6 +22,14 @@
     "widget",
     "ui"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falleneve-ctrl/dsh-download-indicator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/falleneve-ctrl/dsh-download-indicator/issues"
+  },
+  "homepage": "https://github.com/falleneve-ctrl/dsh-download-indicator#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
