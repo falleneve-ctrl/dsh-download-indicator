@@ -1,0 +1,31 @@
+{
+  "name": "dsh-download-indicator",
+  "version": "0.1.0",
+  "description": "Draggable semi-transparent download-progress widget for the DSH Web UI: watches folders for files that are still growing, shows live progress and speed, and hides itself when nothing is downloading.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "files": [
+    "lib",
+    "assets",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "download",
+    "progress",
+    "widget",
+    "ui"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
